@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pengaturan dasar untuk mencegah scroll horizontal dan mendukung safe-area iPhone */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  font-size: 16px; /* Memastikan batas minimum ukuran teks 16px */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Utilitas pendukung safe area iOS */
+.safe-padding-top {
+  padding-top: max(1rem, env(safe-area-inset-top));
+}
+
+.safe-padding-bottom {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+.safe-padding-left {
+  padding-left: max(1rem, env(safe-area-inset-left));
+}
+
+.safe-padding-right {
+  padding-right: max(1rem, env(safe-area-inset-right));
+}
+
+/* Memastikan semua elemen interaktif memenuhi standar minimum 44px */
+button, a.btn, input, select {
+  min-height: 44px;
+}
