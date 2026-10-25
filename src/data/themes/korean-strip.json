@@ -1,0 +1,32 @@
+{
+  "id": "korean-strip",
+  "name": "Korean Life4Cuts",
+  "category": "KOREAN",
+  "badge": "TRENDING #1",
+  "catalogCode": "KR-04",
+  "description": "Strip 4 foto vertikal klasik ala photobooth Hongdae Seoul dengan bingkai pastel.",
+  "canvas": {
+    "width": 1200,
+    "height": 3600,
+    "aspectRatio": "1:3",
+    "backgroundColor": "#FAF6EE",
+    "textColor": "#26262B"
+  },
+  "visual": {
+    "stripBg": "#FAF6EE",
+    "stripTextColor": "#26262B",
+    "slotBg": "#F0EAE1",
+    "tagColor": "#FF4B72"
+  },
+  "slots": [
+    { "id": 1, "x": 90, "y": 140, "width": 1020, "height": 765, "borderRadius": 12 },
+    { "id": 2, "x": 90, "y": 945, "width": 1020, "height": 765, "borderRadius": 12 },
+    { "id": 3, "x": 90, "y": 1750, "width": 1020, "height": 765, "borderRadius": 12 },
+    { "id": 4, "x": 90, "y": 2555, "width": 1020, "height": 765, "borderRadius": 12 }
+  ],
+  "branding": {
+    "topText": "LIFE 4 CUTS",
+    "bottomText": "PHOTOBOOTH • SEOUL EDITION",
+    "stampText": "인생네컷 • 2026"
+  }
+}

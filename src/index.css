@@ -2,35 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Pengaturan dasar untuk mencegah scroll horizontal dan mendukung safe-area iPhone */
+/* Pengaturan dasar antarmuka photobooth modern */
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
   min-height: 100dvh;
   overflow-x: hidden;
-  font-size: 16px; /* Memastikan batas minimum ukuran teks 16px */
+  background-color: #121216;
+  color: #F9F9FB;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Utilitas pendukung safe area iOS */
+/* Utilitas safe area iPhone */
 .safe-padding-top {
-  padding-top: max(1rem, env(safe-area-inset-top));
+  padding-top: max(0.75rem, env(safe-area-inset-top));
 }
 
 .safe-padding-bottom {
-  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
 }
 
 .safe-padding-left {
-  padding-left: max(1rem, env(safe-area-inset-left));
+  padding-left: max(0.75rem, env(safe-area-inset-left));
 }
 
 .safe-padding-right {
-  padding-right: max(1rem, env(safe-area-inset-right));
+  padding-right: max(0.75rem, env(safe-area-inset-right));
 }
 
 /* Memastikan semua elemen interaktif memenuhi standar minimum 44px */
 button, a.btn, input, select {
   min-height: 44px;
+}
+
+/* Animasi Kilatan Flash Kamera */
+@keyframes camera-flash {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.95;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-flash {
+  animation: camera-flash 220ms ease-out forwards;
+}
+
+/* Animasi Hitungan Mundur Pop */
+@keyframes countdown-pop {
+  0% {
+    transform: scale(0.75);
+    opacity: 0.6;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-countdown {
+  animation: countdown-pop 250ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }

@@ -1,0 +1,32 @@
+{
+  "id": "retro-film",
+  "name": "Classic Studio White",
+  "category": "MINIMALIST",
+  "badge": "CLEAN STUDIO",
+  "catalogCode": "CW-01",
+  "description": "Bingkai putih studio minimalis ala Photism & Haru Film dengan garis rapi.",
+  "canvas": {
+    "width": 1200,
+    "height": 3600,
+    "aspectRatio": "1:3",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#1E1E24"
+  },
+  "visual": {
+    "stripBg": "#FFFFFF",
+    "stripTextColor": "#1E1E24",
+    "slotBg": "#F4F4F5",
+    "tagColor": "#18181B"
+  },
+  "slots": [
+    { "id": 1, "x": 90, "y": 140, "width": 1020, "height": 765, "borderRadius": 14 },
+    { "id": 2, "x": 90, "y": 945, "width": 1020, "height": 765, "borderRadius": 14 },
+    { "id": 3, "x": 90, "y": 1750, "width": 1020, "height": 765, "borderRadius": 14 },
+    { "id": 4, "x": 90, "y": 2555, "width": 1020, "height": 765, "borderRadius": 14 }
+  ],
+  "branding": {
+    "topText": "STUDIO FOUR",
+    "bottomText": "MINIMALIST PHOTO ARCHIVE",
+    "stampText": "JAKARTA, 2026"
+  }
+}

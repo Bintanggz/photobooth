@@ -1,0 +1,32 @@
+{
+  "id": "kampus-merdeka",
+  "name": "Edisi Mahasiswa & Wisuda",
+  "category": "KAMPUS",
+  "badge": "SPESIAL MAHASISWA",
+  "catalogCode": "KM-26",
+  "description": "Strip biru navy almamater dan pita emas untuk momen wisuda dan sahabat kampus.",
+  "canvas": {
+    "width": 1200,
+    "height": 3600,
+    "aspectRatio": "1:3",
+    "backgroundColor": "#1E293B",
+    "textColor": "#F8FAFC"
+  },
+  "visual": {
+    "stripBg": "#1E293B",
+    "stripTextColor": "#F8FAFC",
+    "slotBg": "#0F172A",
+    "tagColor": "#38BDF8"
+  },
+  "slots": [
+    { "id": 1, "x": 90, "y": 140, "width": 1020, "height": 765, "borderRadius": 12 },
+    { "id": 2, "x": 90, "y": 945, "width": 1020, "height": 765, "borderRadius": 12 },
+    { "id": 3, "x": 90, "y": 1750, "width": 1020, "height": 765, "borderRadius": 12 },
+    { "id": 4, "x": 90, "y": 2555, "width": 1020, "height": 765, "borderRadius": 12 }
+  ],
+  "branding": {
+    "topText": "GRADUATION & BESTIE",
+    "bottomText": "MAHASISWA PHOTO ARCHIVE",
+    "stampText": "BATCH 2026"
+  }
+}

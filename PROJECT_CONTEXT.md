@@ -22,3 +22,5 @@ React + Vite + Tailwind CSS, HTML5 Canvas, tanpa backend.
 - Jangan menambah dependency baru tanpa menyebut alasannya dan meminta persetujuan pengguna.
 - Kode sederhana, komentar singkat dalam bahasa Indonesia.
 - Semua teks antarmuka dalam bahasa Indonesia yang natural.
+- Semua keputusan visual mengikuti DESIGN.md. Dilarang desain generik bergaya template AI.
+
